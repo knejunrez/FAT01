@@ -23,3 +23,15 @@ git log --oneline
 git
 
 clear init
+
+- Branching
+
+- List all the branches
+git branch -a
+
+- Create a branch
+git branch [branch-name]
+
+- Switch 
+git checkout [branch-name]
+git switch [branch-name]
