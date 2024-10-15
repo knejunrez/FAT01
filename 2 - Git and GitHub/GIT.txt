@@ -1,0 +1,19 @@
+version control 
+
+1 keeping track of changes 
+2 undoing mistaakes 
+3 experimenting safely 
+4 collaborating to other developers 
+
+Repositories 
+
+folder used GIT to track to any changes of the file
+can be local or remote
+there can be many repos 
+
+git init - GIT initiating to track changes
+
+GIT 3 stage architecture 
+1 - working area 
+2 - staging area (git add) - preparation area
+3 - commit stage (git commit)
