@@ -1,0 +1,93 @@
+#text-styling{
+    /* font fallback - if all is not available , next sans-serif font will be applied */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* font weight */
+    /* keyword values */
+font-weight: bold;
+font-weight: normal;
+font-weight: lighter;
+font-weight: bolder;
+
+/* Numeric values */
+/*  [100 - 950] */
+font-weight: 100; /*  thin */
+font-weight: 200; /*  extra light */
+font-weight: 300; /*  light */
+font-weight: 950; /*  extra black */
+
+font-weight: normal;
+
+/*  Font Style */
+font-style: italic;
+font-style: oblique;
+font-style: normal; /*   default */
+
+/*   Text Align */
+text-align: center;
+text-align: justify;
+text-align: right;
+text-align: left; /*   default */ 
+
+/*   Line Height */ 
+line-height: 1.5; /*   1.5 or any value is the multiplier for the default font size for the spacing */ 
+line-height: 36px;
+line-height: normal;
+
+/*   Line Spacing */ 
+letter-spacing: normal;
+letter-spacing: 8px; /*   add space */
+letter-spacing: -4px; /*   remove space */
+letter-spacing: 1px;
+letter-spacing: normal;
+}
+
+#text-decoration{
+text-decoration-line: none;
+text-decoration: line-through;
+text-decoration: overline;
+text-decoration: underline;
+text-decoration-style: solid;
+text-decoration-style: double;
+text-decoration-style: dotted;
+text-decoration-style: wavy;
+text-decoration-style: dashed;
+text-decoration-color: red;
+text-decoration-thickness: 5px;
+text-decoration-thickness: 50%;
+text-decoration: underline solid blue 3px;
+}
+
+#colors{
+    /* Color Names */
+color: white;
+background-color: green; 
+
+/* RGB */
+/* RGB - Red Green Blue (0 - 255)*/
+/* RGBA - Alpha (0.0) Tramsparent (1.0) Fully Opaque*/
+/* to get color reference - https://coolors.co/palettes/trending*/
+color: yellow;
+background-color: rgba(199, 9, 237, 1);
+
+/* Hexadecimal */
+  /* #RRGGBB 0-9, A-F */
+  /* #RRGGBBAA 0-9, A-F */
+color: #e5e5e500;
+background-color: #003566;
+}
+
+#absolute-unit-px{
+font-size: 24px;
+}
+
+/* relative  parent element */
+#relative-unit-em{
+font-size: 3em;
+}
+
+/* relative  root element */
+#relative-unit-rem{
+font-size: 3rem
+}
+
