@@ -1,0 +1,55 @@
+.box1{
+    /* Padding - space within the box */
+padding-top: 10px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 10px;
+}
+
+.box2 {
+    /* clockwise */
+    /* 1 value = all sides */
+    /* 2 values = top/bottom, right/left*/
+    /* 3 values = top, right/left, bottom */
+    /* 4 values = top, right, bottom, left */
+padding: 20px 30px 40px 50px;
+}
+
+
+/* Margin = the space outside of the box */
+.box3 {
+margin-top: 10px;
+margin-right: 20px;
+margin-bottom: 10px;
+margin-left: 20px;
+}
+
+.box4 {
+/* 1 value = all values */
+/* 2 values = top/bottom, right/left*/
+/* 3 values = top, right/left, bottom */
+/* 4 values = top, right, bottom, left */
+margin: 10px 20px 30px 40px;
+}
+
+.mix-borders{
+background-color: aquamarine;
+height: 100px;
+width: 200px;
+border-style: solid dotted dashed double;
+border-width: 4px 6px 8px 10px;
+border-color: tomato yellow blue green;
+
+border: 10px solid tomato;
+}
+
+.circle-container {
+background-color: aqua;
+height: 100px;
+width: 100px;
+border-radius: 50px;
+text-align: center ;
+color: tomato;
+
+
+}

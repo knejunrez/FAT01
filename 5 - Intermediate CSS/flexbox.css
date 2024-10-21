@@ -1,0 +1,49 @@
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    flex-direction: row; /* default */
+
+    
+    
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: end;
+    justify-content: flex-start;
+
+    align-items: stretch; /* default */
+    align-items: center;
+    align-items: flex-end;
+    align-items: flex-start;
+    align-items: stretch;
+
+    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    
+
+    column-gap: 30px;
+    column-gap: 30px;
+    gap: 40px; /* if you want same size for space for row and column */
+}
+
+/* Willingness of the elements to grow */
+
+.flexItem1 {
+flex-grow: 0;  /* default */
+flex-grow: 1;
+}
+
+/* Willingness of the elements to shrink */
+.flexItem1 {
+    flex-shrink: 1; /* Default*/
+    flex-shrink: 0;
+  }
+
+ /* Apply it to only one */
+.flexItem2 {
+    align-self: flex-start;
+    align-self: flex-end;
+    align-self: center;
+  }
