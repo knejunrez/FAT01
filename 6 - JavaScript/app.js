@@ -1,26 +1,59 @@
-// Control Flow Structures
-// 1. Conditional Statements
-// Conditional: if, else if, else statement
-// () - Conditional Block
-// {} - Code Block
-
-let temperature = 31;
-if (temperature < 0) {
-  console.log("It's freezing.");
-  console.log("Bring a jacket.");
-} else if (temperature >= 0 && temperature < 20) {
-  // Range: 0 - 20
-  console.log("It's cool outside.");
-  console.log("Let's go to the park.");
-} else if (temperature >= 20 && temperature <= 29) {
-    // Range: 20 - 29
-    console.log("It's warm outside.");
-    console.log("Let's get some ice cream.");
-  } else {
-    console.log("It's hot outside.");
-
-  }
+// Arrays
+let fruits = [
+    "Apple",
+    "Banana",
+    "Strawberry",
+    "Melon",
+    "Durian",
+    "Mango",
+    "Orange",
+    "Kiwi",
+  ];
+  console.log("Fruits:", fruits);
+  console.log("Length of Fruits:", fruits.length);
 
 
+console.log("First Fruit:", fruits[0]);
+console.log("Third Fruit:", fruits[2]);
+console.log("Last Fruit:", fruits[fruits.length - 1]);
 
-// 2. Looping Statements
+// Update an element
+fruits[0] = "Avocado";
+console.log("Fruits:", fruits);
+
+// .push(element): add an element at the end
+fruits.push("Pear", "Dragon Fruit");
+console.log("Fruits:", fruits);
+
+// Delete an element
+// .pop(): delete an element at the end
+fruits.pop();
+console.log("Fruits:", fruits);
+
+// .splice(): add or delete an element at a specified index.
+// 1. starting index
+// 2. delete count
+// 3. element(s) you want to add
+fruits.splice(
+    2,
+    4,
+    "Grapes",
+    "Orange",
+    "Watermelon",
+    "Lemon",
+    "Dragon Fruit",
+    "JackFruit"
+  );
+  console.log("Fruits:", fruits);
+
+// Searching Element
+// .includes(element): check if an element exist
+console.log("Is Banana included?", fruits.includes("Banana"));
+
+// .indexOf(element): return the index of the element or -1
+console.log("Index of Grapes:", fruits.indexOf("Grapes"));
+
+// .forEach(function): iterate over an array, execute a function for each element.
+fruits.forEach(function (fruit) {
+    console.log("Fruit:", fruit);
+  });
